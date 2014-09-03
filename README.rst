@@ -1,4 +1,4 @@
-flask-unam-theme
-================
+UNAM Theme
+==========
 
 Theme for Flask related projects
