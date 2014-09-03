@@ -1,0 +1,39 @@
+body {
+    background-color: #f2f8fe;
+    font-size: 100%;
+    margin: 0;
+}
+
+.portal-wrapper {
+    background-color: lime;
+    max-width: 960px;
+    margin: auto;
+}
+
+.header {
+    background-color: green;
+}
+
+.main {
+    background-color: limegreen;
+    width: 70%;
+    float: left;
+}
+
+.sidebar {
+    background-color: olive;
+    width: 30%;
+    float: right;
+}
+
+.footer {
+    background-color: lightblue;
+}
+
+.container {
+    overflow: hidden;
+}
+
+#foo {
+
+}
