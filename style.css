@@ -5,9 +5,9 @@ body {
 }
 
 .portal-wrapper {
-    background-color: lime;
-    max-width: 960px;
+    background-color: white;
     margin: auto;
+    width: 1200px;
 }
 
 .header {
@@ -15,15 +15,13 @@ body {
 }
 
 .main {
-    background-color: limegreen;
-    width: 70%;
+    width: 72.3627%;
     float: left;
 }
 
 .sidebar {
-    background-color: olive;
-    width: 30%;
-    float: right;
+    width: 27.6373%;
+    float: left;
 }
 
 .footer {
@@ -32,4 +30,22 @@ body {
 
 .container {
     overflow: hidden;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .portal-wrapper {
+        width: auto;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .main {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
 }
