@@ -14,6 +14,24 @@ body {
     background-color: green;
 }
 
+.nav {
+    background-color: #e1b715;
+}
+
+/*Coloca la lista del header en linea horizontal
+y con separación de 20 px
+*/
+
+.lista li{
+display: inline;
+padding-right: 20px;
+}
+
+.buscar {
+    float: right;
+}
+
+
 .main {
     width: 72.3627%;
     float: left;
